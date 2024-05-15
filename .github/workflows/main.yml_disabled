@@ -8,7 +8,7 @@ jobs:
   run:
     name: Cloudflare Gateway
     permissions: write-all
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     env:
       GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
       GITHUB_REPOSITORY_NAME: ${{ github.event.repository.name }}
